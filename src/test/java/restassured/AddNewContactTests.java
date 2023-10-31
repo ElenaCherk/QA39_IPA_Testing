@@ -64,4 +64,5 @@ public class AddNewContactTests implements Helper {
                 .as(ErrorDTO.class);
         System.out.println(errorDTO.getMessage());
     }
+
 }
