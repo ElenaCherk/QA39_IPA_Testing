@@ -13,6 +13,6 @@ import lombok.ToString;
 public class ErrorDTO { // опиясание для 400 ошибок (ответов)
     int status;
     String error;
-    String message;
+    Object message;
 //    "path": : "string"
 }
