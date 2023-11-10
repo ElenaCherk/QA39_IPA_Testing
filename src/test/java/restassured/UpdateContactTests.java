@@ -35,7 +35,7 @@ String endpoint = "/v1/contacts";
                     .post(endpoint)
                     .then()
                     .extract()
-                    .path("message");
+                    .path("message"); // вытаскивает значение из body
    id = message.substring(message.lastIndexOf(" ") + 1);
 }
 @Test
